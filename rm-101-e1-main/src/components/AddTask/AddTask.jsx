@@ -28,7 +28,7 @@ const AddTask = () => {
       console.log(err)
     }
   }
-  //useEffect(()=>{},[])
+  
   const add=()=>{
     if(!inputdata)
     {
