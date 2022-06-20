@@ -1,11 +1,12 @@
 const express=require("express")
 const router=express()
+const path=require("path")
 
 const User=require("../assets/user.json")
 //const html=require("../assets/")
 
 router.get("",async(req,res)=>{
-    return res.send()
+    return res.sendFile(path.join(__dirname,"../assets/users.html"))
 })
 router.get("/users",async(req,res)=>{
     try {
