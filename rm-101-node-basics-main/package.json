@@ -7,8 +7,8 @@
   "license": "ISC",
   "scripts": {
     "serve": "nodemon src/server.js",
-    "test": "jest --watchAll=false --bail --runInBand --forceExit",
-    "start": "nodemon server.js"
+    "test": "jest --watchAll=false --bail --runInBand --forceExit"
+
   },
   "dependencies": {
     "express": "^4.18.1",

@@ -1,6 +1,9 @@
 const express =require("express")
-const express = () => {};
+//const express = () => {};
 let app = express();
+app.use(express.json())
+const User=require("./controler/user.controler")
+app.use("/",User)
 
 
 app.listen(8000,()=>{
